@@ -1,0 +1,144 @@
+Запрос списка продуктов
+
+GET ./api/products
+
+{
+    data: [
+        {
+            id: 4,
+            name: "Див2",
+            category: {
+                id: 1,
+                name: "ДИВАНЫ",
+            },
+            title: "title",
+            content: "txt....",
+            price: "123..",
+            photos: [
+                "./storage/1/1.jpg",
+                "./storage/2/2.jpg",
+                "./storage/3/3.jpg",
+            ],
+            attributes: [
+                configuration{
+                    ...
+                },
+                mechanism{
+                    ...
+                },
+                dimensions{
+                    ...
+                },
+                legs{
+                    ...
+                },
+                texture{
+                    ...
+                },
+                softness_sofa{
+                    ...
+                },
+                color{
+                    ...
+                },
+            ],
+        },
+        {
+            id: 5,
+            name: "Див31",
+            category: {
+                id: 1,
+                name: "ДИВАНЫ",
+            },
+            title: "title",
+            content: "txt....",
+            price: "123..",
+            photos: [ ],
+            attributes: [
+                configuration{
+                    ...
+                },
+                mechanism{
+                    ...
+                },
+                dimensions{
+                    ...
+                },
+                legs{
+                    ...
+                },
+                texture{
+                    ...
+                },
+                softness_sofa{
+                    ...
+                },
+                color{
+                    ...
+                },
+            ]
+        },
+    ],
+    links: {
+        first: "./api/products?page=1",
+        last: "./api/products?page=2",
+        prev: null,
+        next: "./api/products?page=2",
+    },
+    meta: {
+        current_page: 1,
+        from: 1,
+        last_page: 2,
+        path: "./api/products",
+        per_page: 2,
+        to: 2,
+        total: 4,
+    },
+}
+
+
+Запрос продукта
+
+GET ./api/products/4
+
+{
+    data: {
+        id: 4,
+        name: "Див2",
+        category: {
+            id: 1,
+            name: "ДИВАНЫ",
+        },
+        title: "title",
+        content: "txt....",
+        price: "123..",
+        photos: [
+            "./storage/1/1.jpg",
+            "./storage/2/2.jpg",
+            "./storage/3/3.jpg",
+        ],
+        attributes: [
+            configuration{
+                ...
+            },
+            mechanism{
+                ...
+            },
+            dimensions{
+                ...
+            },
+            legs{
+                ...
+            },
+            texture{
+                ...
+            },
+            softness_sofa{
+                ...
+            },
+            color{
+                ...
+            },
+        ]
+    }
+}

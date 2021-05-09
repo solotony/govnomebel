@@ -1,0 +1,319 @@
+{
+  "otherCalculation": {
+    "wireframe": {
+      "name": "Каркасник",
+      "threshold": "2200",
+      "size": true,
+      "first": "1000",
+      "second": "1500"
+    },
+    "upholsterer": {
+      "name": "Обивщик",
+      "threshold": "2200",
+      "size": true,
+      "first": "1500",
+      "second": "2500"
+    },
+    "carpenter": {
+      "name": "Столяр",
+      "threshold": "1",
+      "size": false,
+      "first": "5000",
+      "second": "0"
+    },
+    "welder": {
+      "name": "Сварщик",
+      "threshold": "1",
+      "size": false,
+      "first": "1500",
+      "second": "0"
+    },
+    "seamstress": {
+      "name": "Швея",
+      "threshold": "2200",
+      "size": true,
+      "first": "1500",
+      "second": "2500"
+    },
+    "rent": {
+      "name": "Аренда",
+      "threshold": "2200",
+      "size": true,
+      "first": "2500",
+      "second": "5000"
+    },
+    "packaging": {
+      "name": "Упаковка",
+      "threshold": "2200",
+      "size": true,
+      "first": "1000",
+      "second": "1500"
+    },
+    "delivery": {
+      "name": "Доставка",
+      "threshold": "2200",
+      "size": true,
+      "first": "1000",
+      "second": "1500"
+    },
+    "welding": {
+      "name": "Сварка",
+      "threshold": "0",
+      "size": false,
+      "first": "1000",
+      "second": "1000"
+    }
+  },
+  "basicSizesArmrest": {
+    "width": {
+      "name": "Ширина",
+      "parameter": "950"
+    },
+    "height": {
+      "name": "Высота",
+      "parameter": "630"
+    },
+    "thickness": {
+      "name": "Толщина",
+      "parameter": "110"
+    }
+  },
+  "backrest": {
+    "zSideBar": {
+      "name": "Z (царга)",
+      "parameter": "180"
+    },
+    "backThickness": {
+      "name": "Толщина спинки",
+      "parameter": "200"
+    },
+    "backHeight": {
+      "name": "Высота спинки",
+      "parameter": "630"
+    },
+    "technologicalGap": {
+      "name": "Технологический зазор",
+      "parameter": "40"
+    },
+    "numberOfArmrests": {
+      "name": "Количество подлокотников",
+      "parameter": "2"
+    },
+    "fabricStock": {
+      "name": "Ткань запас",
+      "parameter": "20"
+    },
+    "seatHeight": {
+      "name": "Высота сидушек",
+      "parameter": "160"
+    },
+    "numberOfPillows": {
+      "name": "Количество подушек",
+      "parameter": "2"
+    },
+    "backCushionThickness": {
+      "name": "Толщина подушек спина",
+      "parameter": "150"
+    },
+    "backCushionHeight": {
+      "name": "Высота подушек спина",
+      "parameter": "500"
+    },
+    "metalFrame": {
+      "name": "Металлокаркас",
+      "parameter": "0"
+    },
+    "solidWoodDrawer": {
+      "name": "Царга из массива",
+      "parameter": "0"
+    }
+  },
+  "materials": {
+    "mdfLaminated_3": {
+      "name": "мдф ламинированный 3 мм",
+      "unit": "кв. м",
+      "price": "97",
+      "square": "5.80"
+    },
+    "hardboard": {
+      "name": "Оргалит",
+      "unit": "кв. м",
+      "price": "58",
+      "square": "3.35"
+    },
+    "plywood_4": {
+      "name": "Фанера 4 мм",
+      "unit": "кв. м",
+      "price": "207",
+      "square": "2.98"
+    },
+    "plywood_9": {
+      "name": "Фанера 9 мм",
+      "unit": "кв. м",
+      "price": "329",
+      "square": "2.98"
+    },
+    "plywood_15": {
+      "name": "Фанера 15 мм",
+      "unit": "кв. м",
+      "price": "490",
+      "square": "2.98"
+    },
+    "plywood_21": {
+      "name": "Фанера 21 мм",
+      "unit": "кв. м",
+      "price": "781",
+      "square": "2.98"
+    },
+    "bar_30_40": {
+      "name": "Брусок 30x40 мм",
+      "unit": "м",
+      "price": "20",
+      "square": null
+    },
+    "foam_rubber_40_65_10": {
+      "name": "Поролон 40/65 10 мм",
+      "unit": "кв. м.",
+      "price": "310",
+      "square": "2"
+    },
+    "foam_rubber_40_65_20": {
+      "name": "Поролон 40/65 20 мм",
+      "unit": "кв. м.",
+      "price": "620",
+      "square": "2"
+    },
+    "foam_rubber_20": {
+      "name": "Поролон 20 мм",
+      "unit": "кв. м.",
+      "price": "200",
+      "square": null
+    },
+    "foam_rubber_5": {
+      "name": "Поролон 5 мм",
+      "unit": "кв. м.",
+      "price": "50",
+      "square": null
+    },
+    "theCloth": {
+      "name": "Ткань",
+      "unit": "пог. м.",
+      "price": "950",
+      "square": null
+    },
+    "theNut": {
+      "name": "Гайка",
+      "unit": "шт.",
+      "price": "10",
+      "square": null
+    },
+    "theBolt": {
+      "name": "Болт",
+      "unit": "шт.",
+      "price": "10",
+      "square": null
+    },
+    "ratchetMechanism": {
+      "name": "Механизм Трещотка ",
+      "unit": "шт.",
+      "price": "550",
+      "square": null
+    },
+    "theStaple": {
+      "name": "Скоба",
+      "unit": "шт.",
+      "price": "0.4",
+      "square": null
+    },
+    "foamGlue": {
+      "name": "Клей для поролона",
+      "unit": " л.",
+      "price": "250",
+      "square": null
+    },
+    "spandBond": {
+      "name": "Спандбонд",
+      "unit": "пог. м.",
+      "price": "9",
+      "square": null
+    },
+    "periotec": {
+      "name": "Периотек",
+      "unit": "пог. м.",
+      "price": "100",
+      "square": null
+    },
+    "velcro": {
+      "name": "Липучка",
+      "unit": "м.",
+      "price": "12",
+      "square": null
+    },
+    "PVA": {
+      "name": "ПВА",
+      "unit": "л.",
+      "price": "225",
+      "square": null
+    },
+    "ribbon_60": {
+      "name": "Лента 60",
+      "unit": "м.",
+      "price": "26",
+      "square": null
+    },
+    "spring": {
+      "name": "Пружина",
+      "unit": "м.",
+      "price": "40",
+      "square": null
+    },
+    "fabricSpandbond": {
+      "name": "Ткань - спандбонд",
+      "unit": "кв. м.",
+      "price": "38",
+      "square": null
+    },
+    "foamRubber_35_42_40": {
+      "name": "Поролон 35/42 40 мм",
+      "unit": "кв. м.",
+      "price": "1000",
+      "square": null
+    },
+    "foamRubber_30_30_40": {
+      "name": "Поролон 30/40 40 мм",
+      "unit": "кв. м.",
+      "price": "920",
+      "square": null
+    },
+    "foamRubberMemory_40_10_40": {
+      "name": "Поролон Мемори 40/10 40 мм",
+      "unit": "кв. м.",
+      "price": "2300",
+      "square": null
+    },
+    "foamRubberMemory_50_14_40": {
+      "name": "Поролон Мемори 40/14 40 мм",
+      "unit": "кв. м.",
+      "price": "2160",
+      "square": null
+    },
+    "holcon_20": {
+      "name": "Холкон 20",
+      "unit": "кв. м.",
+      "price": "60",
+      "square": null
+    },
+    "theFelt": {
+      "name": "Войлок",
+      "unit": "кв. м.",
+      "price": "105",
+      "square": null
+    },
+    "metallicProfile": {
+      "name": "Металлический профиль",
+      "unit": "м.",
+      "price": "80",
+      "square": null
+    }
+  }
+}
